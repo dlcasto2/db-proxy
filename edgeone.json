@@ -1,0 +1,14 @@
+{
+  "cloudFunctions": {
+    "nodejs": {
+      "maxDuration": 60
+    }
+  },
+  "agents": {
+    "framework": "claude-agent-sdk",
+    "timeout": 600,
+    "sandbox": {
+      "timeout": 300
+    }
+  }
+}
